@@ -1,0 +1,102 @@
+.head,.box{
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.head, .box {
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+
+.box-1{
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    padding:6px 0 0 0;
+    border: 2px solid red;
+}
+
+.main-container {
+    border: 2px solid black;
+    width: 900px;
+    margin: 0 auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #8C94A4;
+}
+
+.number1, .number2, .number3, .number4, .number5, .number6 {
+    background-size: cover; 
+    width: 100px;
+    height: 100px;
+}
+
+.game {
+    width: 100%; /* Make the game section fill its parent container */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    gap: 50px; /* Add space between player 1 and player 2 */
+    color: white;
+}
+
+#player1, #player2 {
+    text-align: center;
+}
+
+
+
+
+
+
+.number1 {
+    background-image: url('./img/face1.png');
+    background-size: cover; 
+    width: 100px;
+    height: 100px;
+}
+.number2 {
+    background-image: url('./img/face2.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.number3 {
+    background-image: url('./img/face3.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.number4 {
+    background-image: url('./img/face4.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.number5 {
+    background-image: url('./img/face5.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.number6 {
+    background-image: url('./img/face6.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+/* .game{
+    width: 190px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+} */
